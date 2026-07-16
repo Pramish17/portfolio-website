@@ -1,0 +1,13 @@
+# ---- Secrets: real SMTP credentials must never be committed ----
+libs/php/mail-config.php
+
+# OS / editor / tooling cruft
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+.claude/
+
+# Node (only if you ever add tooling — the site itself needs no build step)
+node_modules/

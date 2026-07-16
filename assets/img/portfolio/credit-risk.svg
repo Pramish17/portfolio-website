@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="Credit Risk Scoring Service">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071b2b"/>
+      <stop offset="1" stop-color="#12547a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="560" fill="url(#g)"/>
+  <g transform="translate(360,150)" opacity="0.9">
+    <rect x="0"   y="150" width="46" height="90"  rx="6" fill="#149ddd"/>
+    <rect x="66"  y="110" width="46" height="130" rx="6" fill="#37b3ed"/>
+    <rect x="132" y="70"  width="46" height="170" rx="6" fill="#5bc0f0"/>
+    <rect x="198" y="30"  width="46" height="210" rx="6" fill="#8ad4f5"/>
+    <path d="M10 150 L88 110 L154 70 L220 30" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="10" cy="150" r="7" fill="#fff"/><circle cx="88" cy="110" r="7" fill="#fff"/>
+    <circle cx="154" cy="70" r="7" fill="#fff"/><circle cx="220" cy="30" r="7" fill="#fff"/>
+  </g>
+  <text x="500" y="440" font-family="Raleway, Arial, sans-serif" font-size="40" font-weight="700" fill="#fff" text-anchor="middle">Credit Risk Scoring Service</text>
+  <text x="500" y="486" font-family="Open Sans, Arial, sans-serif" font-size="20" fill="#9fd3ee" text-anchor="middle">Java 17 · Spring Boot 3 · REST API</text>
+</svg>

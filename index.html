@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pramish Thapa · Backend Software Engineer</title>
+  <meta name="description" content="Portfolio of Pramish Thapa, a Backend Software Engineer specialising in Java, Spring Boot and Google Cloud Platform.">
+  <meta name="author" content="Pramish Thapa">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <!-- Vendor CSS (all local, no CDNs) -->
+  <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="css/vendor/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/vendor/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <!-- ======= Req 2: Pre-loader (hides the site until it has rendered) ======= -->
+  <div id="preloader"></div>
+
+  <!-- ======= Mobile nav toggle ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none" aria-label="Toggle navigation">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- ======= Header / left sidebar (single-page anchor nav) ======= -->
+  <header id="header" class="header d-flex flex-column justify-content-center">
+    <nav id="navmenu" class="navmenu">
+      <div class="profile text-center">
+        <img src="assets/img/profile/profile.jpg" alt="Pramish Thapa" class="img-fluid rounded-circle profile-img" width="120" height="120">
+        <h1 class="name">Pramish Thapa</h1>
+        <p class="role">Backend Software Engineer</p>
+        <div class="social-links mt-2">
+          <a href="https://github.com/Pramish17" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/pramish-thapa-36b828156" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> <span>About</span></a></li>
+        <li><a href="#techstack"><i class="bi bi-stack navicon"></i> <span>Tech Stack</span></a></li>
+        <li><a href="#cv"><i class="bi bi-file-earmark-text navicon"></i> <span>Curriculum Vitae</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <!-- ======= Hero (Req 3: grammatical typed message) ======= -->
+    <section id="hero" class="hero section dark-background">
+      <span class="hero-orb hero-orb-1"></span>
+      <span class="hero-orb hero-orb-2"></span>
+      <span class="hero-orb hero-orb-3"></span>
+      <div class="container" data-aos="fade-in">
+        <h2>Pramish Thapa</h2>
+        <p>I am a <span class="typed" data-typed-items="Backend Software Engineer, Web Developer, Cloud Developer"></span></p>
+      </div>
+    </section>
+
+    <!-- ======= About (Req 4: no personal contact details displayed) ======= -->
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Backend engineer building reliable, cloud-native services.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile/profile-about.jpg" alt="Pramish Thapa" class="about-photo" loading="lazy">
+          </div>
+          <div class="col-lg-8 content">
+            <h3>Backend Software Engineer</h3>
+            <p class="fst-italic">
+              2.5 years of production backend experience in Java and Spring Boot on Google Cloud Platform,
+              including credit risk and identity verification systems for Equifax (via Oncore Software Solutions).
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Role:</strong> <span>Backend Software Engineer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Specialism:</strong> <span>Java, Spring Boot, GCP</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>United Kingdom</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MSc Software Engineering (Distinction)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>University:</strong> <span>University of West London</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Availability:</strong> <span>Open to opportunities</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I have delivered credit risk and identity verification systems for Equifax, and hold an
+              MSc in Software Engineering with Distinction from the University of West London. I enjoy
+              designing clean APIs, writing well-tested code, and shipping to the cloud.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Req 5: Tech Stack - responsive grid of official logos (replaces skill bars) ======= -->
+    <section id="techstack" class="techstack section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tech Stack</h2>
+        <p>Languages, frameworks, libraries and platforms I have studied and deployed.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="tech-category">
+          <h3>Languages</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/java.svg" alt="Java" loading="lazy" width="56" height="56"><span>Java</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/python.svg" alt="Python" loading="lazy" width="56" height="56"><span>Python</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/javascript.svg" alt="JavaScript" loading="lazy" width="56" height="56"><span>JavaScript</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/php.svg" alt="PHP" loading="lazy" width="56" height="56"><span>PHP</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/html5.svg" alt="HTML5" loading="lazy" width="56" height="56"><span>HTML5</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/css3.svg" alt="CSS3" loading="lazy" width="56" height="56"><span>CSS3</span></div></div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Frontend</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/react.svg" alt="React" loading="lazy" width="56" height="56"><span>React</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/angular.svg" alt="Angular" loading="lazy" width="56" height="56"><span>Angular</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/vite.svg" alt="Vite" loading="lazy" width="56" height="56"><span>Vite</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/tailwind.svg" alt="Tailwind CSS" loading="lazy" width="56" height="56"><span>Tailwind CSS</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/bootstrap.svg" alt="Bootstrap" loading="lazy" width="56" height="56"><span>Bootstrap</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/jquery.svg" alt="jQuery" loading="lazy" width="56" height="56"><span>jQuery</span></div></div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Backend</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/springboot.svg" alt="Spring Boot" loading="lazy" width="56" height="56"><span>Spring Boot</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/nodejs.svg" alt="Node.js" loading="lazy" width="56" height="56"><span>Node.js</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/express.svg" alt="Express" loading="lazy" width="56" height="56"><span>Express</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/flask.svg" alt="Flask" loading="lazy" width="56" height="56"><span>Flask</span></div></div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Databases &amp; Messaging</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/mysql.svg" alt="MySQL" loading="lazy" width="56" height="56"><span>MySQL</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/postgresql.svg" alt="PostgreSQL" loading="lazy" width="56" height="56"><span>PostgreSQL</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/mongodb.svg" alt="MongoDB" loading="lazy" width="56" height="56"><span>MongoDB</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/firebase.svg" alt="Firebase / Firestore" loading="lazy" width="56" height="56"><span>Firebase</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/sqlite.svg" alt="SQLite" loading="lazy" width="56" height="56"><span>SQLite</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/kafka.svg" alt="Apache Kafka" loading="lazy" width="56" height="56"><span>Apache Kafka</span></div></div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Cloud &amp; DevOps</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/gcp.svg" alt="Google Cloud Platform" loading="lazy" width="56" height="56"><span>GCP</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/aws.svg" alt="Amazon Web Services" loading="lazy" width="56" height="56"><span>AWS</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/docker.svg" alt="Docker" loading="lazy" width="56" height="56"><span>Docker</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/kubernetes.svg" alt="Kubernetes" loading="lazy" width="56" height="56"><span>Kubernetes</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/jenkins.svg" alt="Jenkins" loading="lazy" width="56" height="56"><span>Jenkins</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/vault.svg" alt="HashiCorp Vault" loading="lazy" width="56" height="56"><span>Vault</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/heroku.svg" alt="Heroku" loading="lazy" width="56" height="56"><span>Heroku</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/vercel.svg" alt="Vercel" loading="lazy" width="56" height="56"><span>Vercel</span></div></div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Machine Learning</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/scikitlearn.svg" alt="scikit-learn" loading="lazy" width="56" height="56"><span>scikit-learn</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/pytorch.svg" alt="PyTorch" loading="lazy" width="56" height="56"><span>PyTorch</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/pandas.svg" alt="pandas" loading="lazy" width="56" height="56"><span>pandas</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/numpy.svg" alt="NumPy" loading="lazy" width="56" height="56"><span>NumPy</span></div></div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Tools</h3>
+          <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3 g-md-4 justify-content-center tech-grid">
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/git.svg" alt="Git" loading="lazy" width="56" height="56"><span>Git</span></div></div>
+            <div class="col"><div class="tech-item"><img src="assets/img/logos/jira.svg" alt="Jira" loading="lazy" width="56" height="56"><span>Jira</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Req 6: Curriculum Vitae section + Req 7: download CV button ======= -->
+    <section id="cv" class="cv section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Curriculum Vitae</h2>
+        <p>A summary of my experience and education.</p>
+      </div>
+
+      <div class="container">
+
+        <!-- Summary banner + download button -->
+        <div class="cv-summary-card mb-4" data-aos="fade-up">
+          <div class="cv-summary-text">
+            <h3>Pramish Thapa</h3>
+            <p class="cv-tagline">Backend Software Engineer · Java · Spring Boot · Google Cloud Platform</p>
+            <p>Backend Software Engineer with 2.5 years building production microservices in Java and Spring
+              Boot on Google Cloud Platform, including 1.5 years on Equifax's credit-risk and identity-verification
+              platform. MSc Software Engineering with Distinction from the University of West London.</p>
+          </div>
+          <a href="assets/cv/Pramish_Thapa_CV.pdf" class="btn btn-download-cv" download target="_blank" rel="noopener">
+            <i class="bi bi-download"></i> Download CV (PDF)
+          </a>
+        </div>
+
+        <div class="row g-4">
+          <!-- Professional Experience -->
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="cv-card h-100">
+              <h3 class="cv-card-title"><i class="bi bi-briefcase"></i> Professional Experience</h3>
+
+              <div class="cv-entry">
+                <div class="cv-entry-head">
+                  <h4>Software Engineer</h4>
+                  <span class="cv-badge">Oncore Software Solutions · client: Equifax</span>
+                  <span class="cv-date">Sept 2021 - June 2023</span>
+                </div>
+                <p class="cv-meta">Java · Spring Boot · GCP Cloud Run · Pub/Sub · Firestore</p>
+                <ul class="cv-bullets">
+                  <li>Built and maintained Java/Spring Boot microservices on GCP Cloud Run for Equifax's credit-risk and identity-verification platform, working with US-based senior engineers across timezones.</li>
+                  <li>Designed Cloud Pub/Sub publishers and subscribers for asynchronous service-to-service messaging, persisted to Firestore, and integrated third-party verification APIs with retry and error handling.</li>
+                  <li>Deployed through Jenkins CI/CD, managed secrets with HashiCorp Vault, and configured IAM roles with SRE teams; fixed a production British-Summer-Time date-filtering bug.</li>
+                  <li>Wrote JUnit/Mockito tests to 95%+ coverage and enforced quality/security gates with SonarQube and Fortify.</li>
+                </ul>
+              </div>
+
+              <div class="cv-entry">
+                <div class="cv-entry-head">
+                  <h4>Software Engineer</h4>
+                  <span class="cv-badge">InfoxIT Pvt. Ltd.</span>
+                  <span class="cv-date">Jan 2020 - June 2021</span>
+                </div>
+                <p class="cv-meta">Java · Spring · Hibernate · MySQL</p>
+                <ul class="cv-bullets">
+                  <li>Developed backend modules for an ERP platform used by banks and educational institutions - payroll automation, invoice generation, and inventory tracking.</li>
+                  <li>Designed MySQL schemas and ORM mappings and optimised SQL queries for improved performance.</li>
+                  <li>Worked across the full SDLC in Agile Scrum: requirements, sprint planning, code reviews, and client demos.</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Education + Certifications + Languages -->
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="cv-card mb-4">
+              <h3 class="cv-card-title"><i class="bi bi-mortarboard"></i> Education</h3>
+              <div class="cv-entry">
+                <div class="cv-entry-head">
+                  <h4>MSc Software Engineering</h4>
+                  <span class="cv-badge cv-badge-accent">Distinction</span>
+                  <span class="cv-date">2023 - 2024</span>
+                </div>
+                <p class="cv-meta">University of West London</p>
+                <p class="mb-0">Dissertation: <em>Digital Twin &amp; IoT for Smart Building Energy</em> - ML pipeline (Random Forest, Linear Regression) on real-time IoT data.</p>
+              </div>
+              <div class="cv-entry">
+                <div class="cv-entry-head">
+                  <h4>BSc Computer Information Systems</h4>
+                  <span class="cv-badge">2:1</span>
+                  <span class="cv-date">2017 - 2021</span>
+                </div>
+                <p class="cv-meta mb-0">Pokhara University, Nepal</p>
+              </div>
+            </div>
+
+            <div class="cv-card mb-4">
+              <h3 class="cv-card-title"><i class="bi bi-patch-check"></i> Certifications</h3>
+              <ul class="cv-bullets mb-0">
+                <li>Full-Stack Development Programme - IT Career Switch</li>
+                <li>DevOps Engineering Programme - ThinkCloudly</li>
+                <li>Full-Stack Engineer Career Path - Codecademy</li>
+                <li>Neural Networks and Deep Learning - DeepLearning.AI</li>
+              </ul>
+            </div>
+
+            <div class="cv-card">
+              <h3 class="cv-card-title"><i class="bi bi-translate"></i> Languages</h3>
+              <p class="mb-0">English (fluent) · Nepali (native) · Hindi (fluent) · Spanish (basic)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Experience (full width) -->
+        <div class="cv-card mt-4" data-aos="fade-up">
+          <h3 class="cv-card-title"><i class="bi bi-search"></i> Research Experience</h3>
+
+          <div class="cv-entry">
+            <div class="cv-entry-head">
+              <h4>Battery Remaining Useful Life &amp; Degradation Modelling</h4>
+              <span class="cv-badge">University of West London</span>
+              <span class="cv-date">2025 - present</span>
+            </div>
+            <p class="cv-meta">Independent research supervised by Dr Fateme Dinmohammadi · Python · scikit-learn · PyTorch</p>
+            <ul class="cv-bullets">
+              <li>Benchmarked five degradation models (linear, polynomial, exponential decay, random forest, Gaussian Process Regression) on the Oxford and NASA PCoE datasets, using chronological splits to avoid data leakage.</li>
+              <li>Built and deployed a live diagnostic dashboard for state-of-health tracking, stress analysis, degradation and end-of-life estimation.</li>
+              <li>Extending the work to temporal deep learning (CNN-LSTM, Transformer); cross-dataset benchmark paper in preparation for <em>Sensors</em> (MDPI).</li>
+            </ul>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-entry-head">
+              <h4>Deep Learning for Turbofan Remaining Useful Life (NASA C-MAPSS)</h4>
+              <span class="cv-badge">University of West London</span>
+              <span class="cv-date">2025 - 2026</span>
+            </div>
+            <p class="cv-meta">Temporal prognostics · CNN-LSTM · SHAP</p>
+            <ul class="cv-bullets">
+              <li>Trained a CNN-LSTM hybrid on the NASA C-MAPSS FD001 dataset achieving RMSE 14.84 on the held-out test set with no overfitting, and applied SHAP for per-sensor interpretability.</li>
+            </ul>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-entry-head">
+              <h4>Digital Twin &amp; IoT for Smart Building Energy (MSc Dissertation)</h4>
+              <span class="cv-badge cv-badge-accent">Distinction</span>
+              <span class="cv-date">2024</span>
+            </div>
+            <p class="cv-meta">Supervised by Dr Fateme Dinmohammadi · Python · scikit-learn · Flask · React</p>
+            <ul class="cv-bullets">
+              <li>Built an end-to-end machine-learning pipeline predicting building energy consumption from real-time IoT data, combining Digital Twin technology with Random Forest and Linear Regression models.</li>
+              <li>Benchmarked four models across MAE, MSE, RMSE and R²; the best (Small Random Forest) reached R² = 0.9989, served via a Flask REST API and a React dashboard deployed on Heroku.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Technical Skills (full width) -->
+        <div class="cv-card mt-4" data-aos="fade-up">
+          <h3 class="cv-card-title"><i class="bi bi-stars"></i> Technical Skills</h3>
+          <div class="cv-skills-grid">
+            <div class="cv-skill-group">
+              <span class="cv-skill-label">Languages</span>
+              <p>Java, Python, JavaScript, SQL</p>
+            </div>
+            <div class="cv-skill-group">
+              <span class="cv-skill-label">Backend</span>
+              <p>Spring Boot, Spring Security, Hibernate/JPA, REST APIs, Microservices</p>
+            </div>
+            <div class="cv-skill-group">
+              <span class="cv-skill-label">Cloud &amp; Messaging</span>
+              <p>GCP (Cloud Run, Pub/Sub, Firestore, Cloud Spanner, Cloud Storage, IAM), AWS, Apache Kafka, HashiCorp Vault</p>
+            </div>
+            <div class="cv-skill-group">
+              <span class="cv-skill-label">Data</span>
+              <p>MySQL, PostgreSQL, Firestore, MongoDB</p>
+            </div>
+            <div class="cv-skill-group">
+              <span class="cv-skill-label">DevOps &amp; Testing</span>
+              <p>Jenkins, Docker, Kubernetes, Git, Jira, JUnit, Mockito, SonarQube</p>
+            </div>
+            <div class="cv-skill-group">
+              <span class="cv-skill-label">Frontend</span>
+              <p>React, Angular (in progress)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Req 8/9/10: Portfolio - no filter, even grid, modal per card, tech stack shown ======= -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Selected projects. Click a card for details - descriptions open in a modal, not a new page.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center portfolio-container">
+
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/credit-risk.svg" class="img-fluid" alt="Credit Risk Scoring Service" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>Credit Risk Scoring Service</h4>
+                <div class="tech-badges">
+                  <span>Java 17</span><span>Spring Boot 3</span><span>Spring Data JPA</span><span>Hibernate</span><span>H2</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-credit-risk">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/company-directory.jpg" class="img-fluid" alt="Company Directory" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>Company Directory</h4>
+                <div class="tech-badges">
+                  <span>HTML</span><span>Bootstrap 5</span><span>jQuery</span><span>PHP 8</span><span>MySQL</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-company-directory">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/merojobradar.jpg" class="img-fluid" alt="MeroJobRadar" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>MeroJobRadar</h4>
+                <div class="tech-badges">
+                  <span>React 18</span><span>Vite</span><span>Tailwind</span><span>Node.js</span><span>Express</span><span>SQLite</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-merojobradar">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/energy-prediction.svg" class="img-fluid" alt="Smart Building Energy Prediction" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>Smart Building Energy Prediction</h4>
+                <div class="tech-badges">
+                  <span>Python</span><span>scikit-learn</span><span>Flask</span><span>React</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-energy-prediction">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/battery-rul.jpg" class="img-fluid" alt="Battery RUL Dashboard" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>Battery RUL Dashboard</h4>
+                <div class="tech-badges">
+                  <span>React</span><span>Recharts</span><span>Vercel</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-battery-rul">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/gazetteer.jpg" class="img-fluid" alt="Gazetteer" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>Gazetteer</h4>
+                <div class="tech-badges">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span><span>jQuery</span><span>Leaflet</span><span>PHP</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-gazetteer">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7 -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <img src="assets/img/portfolio/earth-letters.jpg" class="img-fluid" alt="Earth Letters" loading="lazy" width="1000" height="560">
+              <div class="portfolio-info">
+                <h4>Earth Letters</h4>
+                <div class="tech-badges">
+                  <span>React</span><span>Vite</span><span>Tailwind</span><span>NASA / USGS Landsat</span>
+                </div>
+                <button type="button" class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal-earth-letters">
+                  <i class="bi bi-info-circle"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Project modals (Req 9: description in modal, Req 10: tech stack, Req 11: links new tab) ======= -->
+
+    <div class="modal fade" id="modal-credit-risk" tabindex="-1" aria-labelledby="modal-credit-risk-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-credit-risk-label">Credit Risk Scoring Service</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/credit-risk.svg" class="img-fluid rounded mb-3" alt="Credit Risk Scoring Service" loading="lazy">
+            <p>A Spring Boot REST service that scores applicants for credit risk. It exposes clean,
+              well-tested endpoints, persists data via Spring Data JPA / Hibernate, and uses an in-memory
+              H2 database for fast, reproducible testing. Mirrors the kind of production credit-risk work I
+              delivered for Equifax.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>Java 17</span><span>Spring Boot 3</span><span>Spring Data JPA</span><span>Hibernate</span><span>H2</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/Pramish17/credit-risk-scoring-service" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-company-directory" tabindex="-1" aria-labelledby="modal-company-directory-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-company-directory-label">Company Directory</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/company-directory.jpg" class="img-fluid rounded mb-3" alt="Company Directory" loading="lazy">
+            <p>A full-stack CRUD web application for managing company personnel and departments. Built with a
+              PHP 8 back end talking to a MySQL database, and a responsive Bootstrap 5 / jQuery front end.
+              Deployed live on shared hosting.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>HTML</span><span>Bootstrap 5</span><span>jQuery</span><span>PHP 8</span><span>MySQL</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://pramishthapa.com/project2/companydirectory" class="btn btn-success" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+            <a href="https://github.com/Pramish17/companydirectory" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-merojobradar" tabindex="-1" aria-labelledby="modal-merojobradar-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-merojobradar-label">MeroJobRadar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/merojobradar.jpg" class="img-fluid rounded mb-3" alt="MeroJobRadar" loading="lazy">
+            <p>A job-aggregation platform that collects and surfaces listings. A React 18 + Vite + Tailwind
+              front end consumes a Node.js / Express REST API backed by SQLite, with fast client-side
+              filtering and a clean, responsive UI.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>React 18</span><span>Vite</span><span>Tailwind</span><span>Node.js</span><span>Express</span><span>SQLite</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://merojobradar-production.up.railway.app/" class="btn btn-success" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+            <a href="https://github.com/Pramish17/MeroJobRadar" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-energy-prediction" tabindex="-1" aria-labelledby="modal-energy-prediction-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-energy-prediction-label">Smart Building Energy Prediction</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/energy-prediction.svg" class="img-fluid rounded mb-3" alt="Smart Building Energy Prediction" loading="lazy">
+            <p>My MSc dissertation project, awarded a <strong>Distinction</strong>. Machine-learning models
+              (scikit-learn) predict smart-building energy consumption, served through a Flask API and
+              visualised in a React dashboard.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>Python</span><span>scikit-learn</span><span>Flask</span><span>React</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/Pramish17/energy-consumption-predictor" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-battery-rul" tabindex="-1" aria-labelledby="modal-battery-rul-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-battery-rul-label">Battery RUL Dashboard</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/battery-rul.jpg" class="img-fluid rounded mb-3" alt="Battery RUL Dashboard" loading="lazy">
+            <p>An interactive dashboard visualising battery Remaining Useful Life (RUL). Built in React with
+              Recharts for responsive, animated charts, and deployed on Vercel.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>React</span><span>Recharts</span><span>Vercel</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://battery-rul-dashboard.vercel.app" class="btn btn-success" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+            <a href="https://github.com/Pramish17/battery-rul-dashboard" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-gazetteer" tabindex="-1" aria-labelledby="modal-gazetteer-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-gazetteer-label">Gazetteer</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/gazetteer.jpg" class="img-fluid rounded mb-3" alt="Gazetteer" loading="lazy">
+            <p>An interactive country-information mapping application. A Leaflet map is driven by PHP APIs and
+              jQuery/AJAX, presenting country borders, weather, currency and more in a mobile-friendly UI.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>jQuery</span><span>Leaflet</span><span>PHP</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://pramishthapa.com/gazetteer" class="btn btn-success" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+            <a href="https://github.com/Pramish17/pramishThapa/tree/main/project1/gazetteer" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-earth-letters" tabindex="-1" aria-labelledby="modal-earth-letters-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-earth-letters-label">Earth Letters</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/portfolio/earth-letters.jpg" class="img-fluid rounded mb-3" alt="Earth Letters" loading="lazy">
+            <p>A generative web app that spells your name using real NASA / USGS Landsat satellite imagery -
+              each letter is a natural or man-made feature photographed from space. Type a name and it composes
+              it, letter by letter, from Earth's landscape. Drawing on 50+ years and 10,000,000+ images across
+              every continent.</p>
+            <h6>Tech stack</h6>
+            <div class="tech-badges mb-3">
+              <span>React</span><span>Vite</span><span>Tailwind</span><span>NASA / USGS Landsat</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://pramishthapa.com/earthletters/" class="btn btn-success" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+            <a href="https://github.com/Pramish17/EarthLetters" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-github"></i> View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Req 13: Contact - working AJAX form (no personal contact details shown) ======= -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Have a role or a project in mind? Send me a message.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form id="contact-form" action="libs/php/send-mail.php" method="post" class="php-email-form" novalidate>
+              <div class="row gy-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" name="name" id="name" class="form-control" required maxlength="100">
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" name="email" id="email" class="form-control" required maxlength="150">
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" name="subject" id="subject" class="form-control" required maxlength="150">
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea name="message" id="message" rows="6" class="form-control" required maxlength="3000"></textarea>
+                </div>
+                <!-- Honeypot anti-spam field (hidden from users) -->
+                <div class="d-none" aria-hidden="true">
+                  <label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="loading">Loading…</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <button type="submit" class="btn btn-submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      <p>&copy; <span>Copyright</span> <strong class="px-1">Pramish Thapa</strong></p>
+      <div class="social-links d-flex justify-content-center mt-2">
+        <a href="https://github.com/Pramish17" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/pramish-thapa-36b828156" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top -->
+  <a href="#hero" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS (all local, no CDNs) -->
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/vendor/typed.umd.js"></script>
+  <script src="js/vendor/aos.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
