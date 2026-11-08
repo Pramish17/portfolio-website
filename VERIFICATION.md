@@ -20,9 +20,10 @@ Status key: ✅ done & verified
   spinner covers everything, then fades out once loaded.
 
 ### 3. Typed message is grammatical ✅
-- **Where:** Hero `#hero` - `I am a <span class="typed" ...>` cycling
-  "Backend Software Engineer", "Web Developer", "Cloud Developer".
-- **Test:** Watch the hero. It reads "I am a Backend Software Engineer" - zero occurrences
+- **Where:** Hero `#hero` - `I am <span class="typed" ...>` cycling
+  "an AI Researcher", "a Software Engineer", "a Back-End Developer", "a Cloud Developer"
+  (the article lives in each item so "an"/"a" is always correct).
+- **Test:** Watch the hero. It reads "I am an AI Researcher", then "I am a Software Engineer" - zero occurrences
   of "I'm" in the page.
 
 ### 4. No age / birthday / email / phone anywhere on the page ✅
@@ -51,8 +52,8 @@ Status key: ✅ done & verified
 ### 7. Download-PDF button for the full CV ✅
 - **Where:** `#cv` - `<a href="assets/cv/Pramish_Thapa_CV.pdf" download target="_blank" rel="noopener">`.
 - **Test:** File present at `assets/cv/Pramish_Thapa_CV.pdf` (327 KB). Click "Download CV (PDF)"
-  → downloads. **Note:** ensure this file is your backend Software-Engineer CV (not the
-  battery-research one), since that's what the section describes.
+  → downloads. The PDF is the AI Researcher &amp; Software Engineer CV, and the `#cv` section
+  mirrors its content.
 
 ### 8. Portfolio filter removed; cards spread evenly ✅
 - **Where:** `#portfolio` - no `All / App / Web` filter, no `isotope`/`data-filter` JS.
@@ -75,7 +76,7 @@ Status key: ✅ done & verified
 
 ### 11. All links open in a new tab (`target="_blank"` + `rel="noopener"`) ✅
 - **Where:** Every external link (social, repo, live-demo) has both attributes.
-- **Test:** Automated check - **16/16** external `<a>` links carry `target="_blank"`
+- **Test:** Automated check - **18/18** external `<a>` links carry `target="_blank"`
   **and** `rel="noopener"`. Click any repo/demo link → opens in a new tab.
 
 ### 12. Images optimised (compressed, right-sized, lazy-loaded) ✅
@@ -110,7 +111,7 @@ Status key: ✅ done & verified
 ## Manual inputs - all provided ✅
 | Item | Status |
 |------|--------|
-| CV PDF (`assets/cv/Pramish_Thapa_CV.pdf`) | ✅ in place (confirm it's the SWE version) |
+| CV PDF (`assets/cv/Pramish_Thapa_CV.pdf`) | ✅ in place (AI Researcher &amp; Software Engineer version) |
 | Profile logo (`assets/img/profile/profile.jpg`) | ✅ circular crop, optimised |
 | About photo (`assets/img/profile/profile-about.jpg`) | ✅ fuller photo, optimised |
 | Project screenshots (`assets/img/portfolio/*.jpg`) | ✅ all in place, optimised |
